@@ -9,12 +9,12 @@ class Social extends Component {
 		return (
 			<List>
 				<ListItem inline>
-					<a className="icons" href="https://github.com/daiky00">
+					<a className="icons" href="https://github.com/REstrella99">
 						<IoLogoGithub />
 					</a>
 				</ListItem>
 				<ListItem inline>
-					<a className="icons" href="https://www.linkedin.com/in/francisco-pena/">
+					<a className="icons" href="https://www.linkedin.com/in/rafael-estrella-370724100/">
 						<IoLogoLinkedin />
 					</a>
 				</ListItem>

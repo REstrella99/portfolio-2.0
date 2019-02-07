@@ -1,7 +1,5 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
-import { IoLogoGameControllerB } from 'react-icons/io';
-import { IoMdFitness } from 'react-icons/io';
 import MusicPlayer from 'react-responsive-music-player';
 import LazyLoad from 'react-lazyload';
 import Me from '../images/me.svg';
@@ -13,32 +11,19 @@ import Section from '../components/Section';
 import Paragraph from '../components/Paragraph';
 import Divider from '../components/Divider';
 import Social from '../components/Social';
+import Button from '../components/Button';
+import logo from '../images/logo.jpg';
+import columbia from '../images/columbia.jpg';
 
-//Companies
-
-import Hilti from '../images/hilti.jpg';
-import IBM from '../images/ibm.jpg';
-import Jpmorgan from '../images/jpmorgan.jpg';
-import CapitalOne from '../images/capitalone.jpg';
-import BankOfAmerica from '../images/bankofamerica.jpg';
-
-const playlist = [
-	{
-		url: 'mp3/deadmau5.mp3',
-		cover: 'images/deadmau5.jpg',
-		title: '4 x 4 = 12',
-		artist: [ 'deadmau5' ]
-	}
-];
 
 const Home = () => (
 	<div>
-		<Section backgroundColor="#e0ebe8">
+		<Section backgroundColor="#31355b">
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title>I'm Francisco</Title>
-						<SubTitle>Senior Frontend Developer/Designer</SubTitle>
+						<Title>Rafael Estrella</Title>
+						<Paragraph>Junior Frontend Developer</Paragraph>
 						<Social />
 					</Col>
 				</Row>
@@ -56,16 +41,14 @@ const Home = () => (
 					<SubTitle>Hi.</SubTitle>
 				</Col>
 				<Col xs={12} lg={6}>
-					<Paragraph>
-						I'm a Senior Frontend Developer/Designer based in Plano, TX. I have a passion for web
-						development and I love to create new things for the web and mobile devices.
-					</Paragraph>
-					<Paragraph>
-						I enjoy turning complex problems into simple, beautiful and intuitive interfaces with responsive
-						design. When I'm not coding or pushing pixels, you'll find me in the gym <IoMdFitness /> or
-						playing some video games <IoLogoGameControllerB />.
-					</Paragraph>
-				</Col>
+					<div className="div">
+						I'm a Junior Frontend Developer with a zeal for innovation and advancing technology in the digital dimension. Being a recent graduate of Columbia University's first-ever Full-Stack Engineering Coding Bootcamp I will integrate my ingenuity into tech enterprises by building avant-garde applications and websites to accelerate my career.
+					</div></Col>
+
+
+				<Col xs={12}>
+					<Img src={columbia} sizeX="25%" sizeY="90%" /></Col>
+
 			</Row>
 			<Row center="xs">
 				<Col xs={2} md={1}>
@@ -75,30 +58,18 @@ const Home = () => (
 			<Row center="xs">
 				<LazyLoad height={200} offset={-250}>
 					<Col xs={12}>
-						<SubTitle>What I can do</SubTitle>
-					</Col>
-					<Col xs={12} lg={5}>
-						<Paragraph>FRAMEWORKS</Paragraph>
-						<i className="icons devicon-angularjs-plain colored" />
-						<i className="icons devicon-vuejs-plain colored" />
+						<SubTitle>Well versed in...</SubTitle>
 						<i className="icons devicon-react-plain colored" />
-						<Paragraph>LANGUAGES</Paragraph>
 						<i className="icons devicon-html5-plain colored" />
 						<i className="icons devicon-css3-plain colored" />
 						<i className="icons devicon-javascript-plain colored" />
-						<Paragraph>SUPER POWERS</Paragraph>
-						<i className="icons devicon-typescript-plain colored" />
 						<i className="icons devicon-sass-original colored" />
-						<i className="icons devicon-less-plain-wordmark colored" />
-						<Paragraph>MAGIC</Paragraph>
-						<i className="icons devicon-gulp-plain colored" />
-						<i className="icons devicon-grunt-plain colored" />
 						<i className="icons devicon-webpack-plain colored" />
 					</Col>
-					<Col xs={12} lg={4}>
-						<Paragraph> LISTEN TO SOME MUSIC</Paragraph>
-						<MusicPlayer progressColor="#4ab19a" btnColor="#4ab19a" playlist={playlist} />
-					</Col>
+
+
+
+
 				</LazyLoad>
 			</Row>
 			<Row center="xs">
@@ -108,26 +79,20 @@ const Home = () => (
 			</Row>
 			<Row center="xs">
 				<Col xs={12}>
-					<SubTitle>Companies I have work for</SubTitle>
+					<SubTitle>My Recent Work</SubTitle>
 				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={Hilti} sizeX="100%" sizeY="100%" />
+				<Col xs={12}>
+					<Img src={logo} sizeX="50%" sizeY="50%" />
+					<div>
+						<Button
+							href="https://www.anime-shop-online.com">
+							Anime Shop Online
+    </Button></div>
 				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={IBM} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={Jpmorgan} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={BankOfAmerica} sizeX="100%" sizeY="100%" />
-				</Col>
-				<Col xs={6} md={4} lg={3}>
-					<Img src={CapitalOne} sizeX="100%" sizeY="100%" />
-				</Col>
+
 			</Row>
 		</Grid>
-	</div>
+	</div >
 );
 
 export default Home;

@@ -1,5 +1,3 @@
-# Portfolio 2.0 Francisco Pena 😃
-
 ## Project setup 💡
 ```
 yarn install

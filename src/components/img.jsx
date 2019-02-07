@@ -6,4 +6,6 @@ const Img = styled.img`
 	max-width: ${(props) => props.max};
 `;
 
+
+
 export default Img;

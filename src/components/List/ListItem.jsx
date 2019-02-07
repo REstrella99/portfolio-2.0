@@ -6,10 +6,11 @@ const ListItem = styled.li`
 	font-size: 130%;
 
 	a {
-		color: #4ab19a;
+		color: white;
 		text-decoration: none;
+		font-family: 'Quattrocento', serif;
 		&:hover {
-			color: #1e836c;
+			color: #5e95ec;
 		}
 	}
 `;
