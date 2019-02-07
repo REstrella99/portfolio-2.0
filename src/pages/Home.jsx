@@ -14,6 +14,7 @@ import Social from '../components/Social';
 import Button from '../components/Button';
 import logo from '../images/logo.jpg';
 import columbia from '../images/columbia.jpg';
+import { NavLink } from 'react-router-dom';
 
 
 const Home = () => (
@@ -43,7 +44,8 @@ const Home = () => (
 				<Col xs={12} lg={6}>
 					<div className="div">
 						I'm a Junior Frontend Developer with a zeal for innovation and advancing technology in the digital dimension. Being a recent graduate of Columbia University's first-ever Full-Stack Engineering Coding Bootcamp I will integrate my ingenuity into tech enterprises by building avant-garde applications and websites to accelerate my career.
-					</div></Col>
+					</div>
+				</Col>
 
 
 				<Col xs={12}>
@@ -81,13 +83,11 @@ const Home = () => (
 				<Col xs={12}>
 					<SubTitle>My Recent Work</SubTitle>
 				</Col>
-				<Col xs={12}>
-					<Img src={logo} sizeX="50%" sizeY="50%" />
-					<div>
-						<Button
-							href="https://www.anime-shop-online.com">
-							Anime Shop Online
-    </Button></div>
+				<Col xs={12} md={4}>
+					<NavLink to="/work">
+						<Img src={logo} sizeX="90%" sizeY="60%" />
+					</NavLink>
+
 				</Col>
 
 			</Row>

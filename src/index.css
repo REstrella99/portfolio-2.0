@@ -31,11 +31,11 @@ width:40%;
 height:70%;
 position:absolute;
 bottom:0px;
-top:655px;
+top:395px;
 left:29.5%;
 /* perspective: 300px ; */
-transform: translate3d( 0 , -60% , 0) ;
-animation: levitate 5s ease-in-out infinite alternate ;
+/* transform: translate3d( 0 , -60% , 0) ;
+animation: levitate 5s ease-in-out infinite alternate ; */
 }
 
 @keyframes levitate	{
@@ -55,12 +55,12 @@ animation: levitate 5s ease-in-out infinite alternate ;
 .dodecahedron {
 
   position:absolute;
-  margin-left: 590px;
+  margin-left: 500px;
   margin-top:30px;
 -webkit-transform-style: preserve-3d;
 transform-style: preserve-3d;
 transform: scale3d(0.5, 0.5, 0.5);
-animation: rotate 20s linear infinite alternate-reverse;
+animation: rotate 5s linear infinite alternate-reverse;
 padding-top:0px;
 z-index:1;
 }
@@ -69,9 +69,7 @@ position: absolute;
 left: 0;
 width: 141.7px;
 height: 142.2px;
-  /* border:15px; */
-  border-radius:10px;
-  
+border-radius:10px;
 background-size: 100% 100%;
 background-repeat: no-repeat;
 -webkit-transform-origin: 50% 100%;
@@ -158,8 +156,8 @@ transform: translateZ(-94px) translateY(-131px) translateX(-8px) rotate(180deg) 
             transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
   100% {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
+    -webkit-transform: rotateX(1020deg);
+            transform: rotateX(1020deg);
   }
 }
 
