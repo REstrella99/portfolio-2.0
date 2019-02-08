@@ -5,6 +5,7 @@ const Paragraph = styled.p`
 	font-family: 'Quattrocento', serif;
 	font-weight: 100;
 	color: white;
+	margin-top:25px;
 `;
 
 export default Paragraph;

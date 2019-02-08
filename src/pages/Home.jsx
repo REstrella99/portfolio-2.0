@@ -61,12 +61,15 @@ const Home = () => (
 				<LazyLoad height={200} offset={-250}>
 					<Col xs={12}>
 						<SubTitle>Well versed in...</SubTitle>
+						<i className="icons devicon-mongodb-plain colored" />
+						<i className="icons devicon-express-original colored" />
 						<i className="icons devicon-react-plain colored" />
+						<i className="icons devicon-nodejs-plain colored" />
+						<i className="icons devicon-webpack-plain colored" />
 						<i className="icons devicon-html5-plain colored" />
 						<i className="icons devicon-css3-plain colored" />
 						<i className="icons devicon-javascript-plain colored" />
-						<i className="icons devicon-sass-original colored" />
-						<i className="icons devicon-webpack-plain colored" />
+
 					</Col>
 
 
@@ -85,7 +88,7 @@ const Home = () => (
 				</Col>
 				<Col xs={12} md={4}>
 					<NavLink to="/work">
-						<Img src={logo} sizeX="90%" sizeY="60%" />
+						<Img src={logo} sizeX="95%" sizeY="70%" />
 					</NavLink>
 
 				</Col>
