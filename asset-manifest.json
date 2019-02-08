@@ -1,8 +1,9 @@
 {
   "main.css": "static/css/main.26ea98d7.css",
   "main.css.map": "static/css/main.26ea98d7.css.map",
-  "main.js": "static/js/main.3ad2cb49.js",
-  "main.js.map": "static/js/main.3ad2cb49.js.map",
+  "main.js": "static/js/main.f435ee23.js",
+  "main.js.map": "static/js/main.f435ee23.js.map",
+  "static\\media\\aso.png": "static/media/aso.4239d838.png",
   "static\\media\\bootstrap.png": "static/media/bootstrap.460b4e11.png",
   "static\\media\\character.png": "static/media/character.e0884ff4.png",
   "static\\media\\columbia.jpg": "static/media/columbia.673bfc55.jpg",
@@ -22,6 +23,7 @@
   "static\\media\\python.png": "static/media/python.99110f51.png",
   "static\\media\\react.png": "static/media/react.edccaa39.png",
   "static\\media\\sass.png": "static/media/sass.536e1893.png",
+  "static\\media\\sendloop.jpg": "static/media/sendloop.2d6abce9.jpg",
   "static\\media\\sql.png": "static/media/sql.9079f1cc.png",
   "static\\media\\tea.svg": "static/media/tea.796a7ac6.svg"
 }
