@@ -88,7 +88,7 @@ const Home = () => (
 				</Col>
 				<Col xs={12} md={4}>
 					<NavLink to="/work">
-						<Img src={logo} sizeX="95%" sizeY="70%" />
+						<Img src={logo} sizeX="90%" sizeY="90%" />
 					</NavLink>
 
 				</Col>

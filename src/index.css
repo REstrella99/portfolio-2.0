@@ -31,12 +31,11 @@ width:40%;
 height:70%;
 position:absolute;
 bottom:0px;
-top:395px;
+top:655px;
 left:29.5%;
-/* perspective: 300px ; */
-/* transform: translate3d( 0 , -60% , 0) ;
-animation: levitate 5s ease-in-out infinite alternate ; */
-}
+transform: translate3d( 0 , -60% , 0) ;
+animation: levitate s ease-in-out infinite alternate ;
+} 
 
 @keyframes levitate	{
 		 
@@ -56,7 +55,7 @@ animation: levitate 5s ease-in-out infinite alternate ; */
 
   position:absolute;
   margin-left: 500px;
-  margin-top:30px;
+  margin-top:90px;
 -webkit-transform-style: preserve-3d;
 transform-style: preserve-3d;
 transform: scale3d(0.5, 0.5, 0.5);

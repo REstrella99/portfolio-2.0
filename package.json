@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Restrella99.github.io/portfolio-2.0",
-  "engines": {
-    "node": "11.6.0",
-    "npm": "6.5.0"
-  },
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -15,10 +11,12 @@
     "react-lazyload": "^2.5.0",
     "react-player": "^1.9.1",
     "react-responsive-music-player": "^0.3.0",
+    "react-reveal-text": "^0.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.1",
     "styled-components": "^3.3.3",
+    "typed.js": "^2.0.10",
     "video-react": "^0.13.2"
   },
   "scripts": {
