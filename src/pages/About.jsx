@@ -45,7 +45,7 @@ const About = () => (
 
 
 					<Section>
-						<Col xs={12}>
+						<Col xs={24}>
 							<Row xs="left">
 
 								<Paragraph1>

@@ -204,7 +204,7 @@ const Work = () => (
 									Chime- Homepage
 </Button></div>
 
-							<div><Button href="https://chime-bot.herokuapp.com/">Dashboard</Button></div>
+							<div><Button href="https://chime-bot.herokuapp.com/dashboard">Dashboard</Button></div>
 						</Row><div>
 							<Button
 								href="https://github.com/rileyjgr/chime">

@@ -6,7 +6,7 @@ const Paragraph1 = styled.p`
 	font-weight: 350;
 	color: black;
 	margin-right:950px;
-	margin-top:95px;
+	margin-top:55px;
 	float: left;
 `;
 

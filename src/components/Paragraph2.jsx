@@ -6,7 +6,7 @@ const Paragraph1 = styled.p`
 	font-weight: 350;
 	color: black;
 	margin-left:875px;
-	margin-bottom:225px;
+	margin-bottom:120px;
 `;
 
 export default Paragraph1;

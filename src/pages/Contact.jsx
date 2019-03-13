@@ -10,13 +10,13 @@ const Contact = () => (
 		<Section backgroundColor="#31355b">
 			<Grid>
 				<Row center="xs">
-					<Col xs={12}>
+					<Col>
 						<Title>Contact me</Title>
 					</Col>
 
 				</Row>
 				<Row center="xs">
-					<Col xs={12}>
+					<Col>
 						<Contacts />
 					</Col></Row>
 			</Grid>
