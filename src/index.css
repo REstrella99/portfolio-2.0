@@ -59,7 +59,7 @@ animation: levitate s ease-in-out infinite alternate ;
 -webkit-transform-style: preserve-3d;
 transform-style: preserve-3d;
 transform: scale3d(0.5, 0.5, 0.5);
-animation: rotate 5s linear infinite alternate-reverse;
+animation: rotate 12s linear infinite alternate-reverse;
 padding-top:0px;
 z-index:1;
 }
