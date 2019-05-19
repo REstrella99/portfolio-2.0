@@ -62,7 +62,7 @@ const About = () => (
 						<Col xs={12}>
 							<Row xs="right">
 								<Paragraph2>
-									PHILOSOPHY<br />
+									MY PHILOSOPHY<br />
 									<br />
 									My school of thought is reliant on schooling my thought – thoroughly, <br />regularly; keeping abreast of design,   technology, trends and solutions.
 										</Paragraph2>
