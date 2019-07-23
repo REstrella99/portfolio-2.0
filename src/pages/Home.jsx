@@ -13,6 +13,8 @@ import Divider from '../components/Divider';
 import Social from '../components/Social';
 import Button from '../components/Button';
 import logo from '../images/logo.jpg';
+import clyrics from '../images/clyrics.jpg';
+import upwork from '../images/upwork.png';
 import columbia from '../images/columbia.jpg';
 import { NavLink } from 'react-router-dom';
 
@@ -24,7 +26,7 @@ const Home = () => (
 				<Row center="xs">
 					<Col xs={12}>
 						<Title>Rafael Estrella</Title>
-						<Paragraph>Junior Frontend Developer</Paragraph>
+						<Paragraph>Junior Full-Stack/Frontend Developer</Paragraph>
 						<Social />
 					</Col>
 				</Row>
@@ -86,12 +88,28 @@ const Home = () => (
 				<Col xs={12}>
 					<SubTitle>My Recent Work</SubTitle>
 				</Col>
+
+				<Col xs={12} md={4}>
+					<NavLink to="/work">
+						<Img src={upwork} sizeX="90%" sizeY="90%" />
+					</NavLink>
+
+				</Col>
+
 				<Col xs={12} md={4}>
 					<NavLink to="/work">
 						<Img src={logo} sizeX="90%" sizeY="90%" />
 					</NavLink>
 
 				</Col>
+				<Col xs={12} md={4}>
+					<NavLink to="/work">
+						<Img src={clyrics} sizeX="90%" sizeY="90%" />
+					</NavLink>
+
+				</Col>
+
+
 
 			</Row>
 		</Grid>
