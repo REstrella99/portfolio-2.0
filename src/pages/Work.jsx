@@ -256,12 +256,12 @@ const Work = () => (
 
 				<Row center="xs">
 
-					<Col xs={12} center="xs">
+					<Col style={{ marginBottom: "50px" }} xs={12} center="xs">
 						<Paragraph>B.N.H.- Beer Near Here</Paragraph>
 
 						<ReactPlayer style={{ marginBottom: "50px" }} xs={12} center="xs" width="cover" url='https://vimeo.com/313443907' playing loop=" true" />
 
-						<Paragraph color="#ffffff">
+						<Paragraph style={{ marginBottom: "25px" }} color="#ffffff">
 							Find a brewery near you and what kind of beers they offer.  Get custom suggestions using keywords depending on your preference.
 							<br />
 							<br />
@@ -271,7 +271,7 @@ const Work = () => (
 
 						<Row center="xs">
 							<LazyLoad height={200} offset={-250}>
-								<Col center="xs" xs={12}>
+								<Col style={{ marginBottom: "25px" }} center="xs" xs={12}>
 									<i className="icons devicon-html5-plain colored" />
 									<i className="icons devicon-css3-plain colored" />
 									<i className="icons devicon-javascript-plain colored" />
