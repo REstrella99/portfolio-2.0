@@ -41,11 +41,11 @@ const Home = () => (
 			<Row center="xs">
 				<Img src={Me} sizeX="152px" sizeY="200px" />
 				<Col xs={12}>
-					<SubTitle>Hi.</SubTitle>
+					<SubTitle>Hello!</SubTitle>
 				</Col>
 				<Col xs={12} lg={6}>
 					<div className="div">
-						I'm a Junior Frontend Developer with a zeal for innovation and advancing technology in the digital dimension. Being a recent graduate of Columbia University's first-ever Full-Stack Engineering Coding Bootcamp I will integrate my ingenuity into tech enterprises by building avant-garde applications and websites to accelerate my career.
+						I'm a Junior Full-Stack/Frontend Developer with a zeal for innovation and advancing technology in the digital dimension. Being a recent graduate of Columbia University's first-ever Full-Stack Engineering Coding Bootcamp I will integrate my ingenuity into tech enterprises by building avant-garde applications and websites to accelerate my career.
 					</div>
 				</Col>
 
