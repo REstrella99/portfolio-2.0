@@ -25,14 +25,19 @@ const Home = () => (
 			<Grid>
 				<Row center="xs">
 					<Col xs={12}>
-						<Title>Rafael Estrella</Title>
-						<Paragraph>Junior Full-Stack/Frontend Developer</Paragraph>
+						<div style={{ marginBottom: "435px" }} class="loader">
+							<div class="wrapper">
+								<div class="letters"><span class="letter">R</span><span class="letter">a</span><span class="letter">f</span><span class="letter">a</span><span class="letter">e</span><span class="letter">l</span><span class="letter"> </span><span class="letter">E</span><span class="letter">s</span><span class="letter">t</span><span class="letter">r</span><span class="letter">e</span><span class="letter">l</span><span class="letter">l</span><span class="letter">a</span>
+								</div>
+								<p style={{ fontFamily: "'Quattrocento', serif", color: "white" }}>Junior Full-Stack/Frontend Developer</p>
+							</div>
+						</div>
 						<Social />
 					</Col>
 				</Row>
 				<Row bottom="xs" center="xs">
 					<Col xs={12}>
-						<Img src={Desk} sizeX="100%" sizeY="120%" max="600px" />
+						<Img className="desk" src={Desk} sizeX="100%" sizeY="120%" max="600px" />
 					</Col>
 				</Row>
 			</Grid>
@@ -62,12 +67,14 @@ const Home = () => (
 			<Row center="xs">
 				<LazyLoad height={200} offset={-250}>
 					<Col xs={12}>
-						<SubTitle>Well versed in...</SubTitle>
+						<div className="div">TOP SKILLS- MongoDB, Express, ReactJS, Node JS, HTML5, CSS3/SASS/LESS & Javascript. </div>
+						<br />
+						<br />
 						<i className="icons devicon-mongodb-plain colored" />
 						<i className="icons devicon-express-original colored" />
 						<i className="icons devicon-react-plain colored" />
 						<i className="icons devicon-nodejs-plain colored" />
-						<i className="icons devicon-webpack-plain colored" />
+
 						<i className="icons devicon-html5-plain colored" />
 						<i className="icons devicon-css3-plain colored" />
 						<i className="icons devicon-javascript-plain colored" />
@@ -79,6 +86,10 @@ const Home = () => (
 
 				</LazyLoad>
 			</Row>
+			<Row center="xs">
+
+			</Row>
+
 			<Row center="xs">
 				<Col xs={2} md={1}>
 					<Divider />

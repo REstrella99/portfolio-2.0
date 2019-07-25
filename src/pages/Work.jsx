@@ -232,7 +232,7 @@ const Work = () => (
 								</Col>
 							</LazyLoad>
 						</Row>
-						<Row center="xs">
+						{/* <Row center="xs">
 							<div>
 
 								<Button
@@ -241,7 +241,7 @@ const Work = () => (
 </Button></div>
 
 							<div><Button href="https://chime-bot.herokuapp.com/dashboard">Dashboard</Button></div>
-						</Row><div>
+						</Row><div> */}<div>
 							<Button
 								href="https://github.com/rileyjgr/chime">
 								0101 [Code] 0101

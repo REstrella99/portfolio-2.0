@@ -3,11 +3,10 @@ import styled from 'styled-components';
 const Paragraph1 = styled.p`
 	font-size: 125%;
 	font-family: 'Titillium Web', sans-serif;
-	font-weight: 650;
+	font-weight: 350;
 	color: black;
-	margin-left:755px;
-	line-height:1.8;
-	margin-bottom:350px;
+	margin-right:985px;
+	line-height:1.5;
 
 `;
 
