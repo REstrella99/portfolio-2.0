@@ -46,15 +46,14 @@ const About = () => (
 			<Section>
 				<Col xs>
 					<Row>
-						<Paragraph2>
-							ABOUT ME<br /><br />
-							The name’s RAFAEL ESTRELLA. I am a tireless<br /> seeker of knowledge, occassional purveyor of wisdom <br />and also,  coincidentally, a full-stack developer.  I maintain a <br /> healthy balance between functionality and visual impact<br /> in all my work.  I believe every piece of design can be a <br />work of art. Some of my top skills are MongoDB, Express, <br />ReactJS, Node JS, HTML5, CSS3/SASS/LESS & Javascript.<br /> <br />
-							MY PHILOSOPHY<br />
+						<Paragraph2><br /><br />
+							ABOUT ME<br /><br /><br /><br />
+							The name’s RAFAEL ESTRELLA. I am a tireless seeker of knowledge, occassional purveyor of wisdom and also,  coincidentally, a full-stack developer.  I maintain a healthy balance between functionality and visual impact in all my work.  I believe every piece of design can be a work of art. Some of my top skills are MongoDB, Express, ReactJS, Node JS, HTML5, CSS3/SASS/LESS & Javascript.<br /> <br />
 							<br />
-							My school of thought is reliant on schooling my thought <br />– thoroughly, regularly; keeping abreast of design,
-							technology, trends and solutions. We engineers who now
-							form the clay which moulds not only our external environment,
-							but also our mind’s interior realm. As we enter the new geological era we're becoming perhaps unwittingly, an ecological force on a planetary scale.
+							{/* <br />
+							As an innovative student and learner of
+							technology, avid problem solver in solutions an engineer has risen, me.  I've mastered the clay which moulds not only our external environment,
+							but also our mind’s interior realm.  */}
 
 
 

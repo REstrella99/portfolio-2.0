@@ -5,8 +5,8 @@ const Paragraph1 = styled.p`
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 650;
 	color: black;
-	margin-left:755px;
-	line-height:1.8;
+	margin-left:725px;
+	line-height:2.1;
 	margin-bottom:350px;
 
 `;
