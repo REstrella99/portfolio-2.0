@@ -16,7 +16,7 @@ import Paragraph3 from '../components/Paragraph3';
 
 
 const About = () => (
-	<div>
+	<div backgroundColor="#31355b">
 
 		<Row backgroundColor="#31355b">
 			<Col backgroundColor="#31355b" xs>
@@ -43,11 +43,10 @@ const About = () => (
 
 
 
-			<Section>
+			<Section backgroundColor="#31355b">
 				<Col xs>
 					<Row>
 						<Paragraph2><br /><br />
-							ABOUT ME<br /><br /><br /><br />
 							The name’s RAFAEL ESTRELLA. I am a tireless seeker of knowledge, occassional purveyor of wisdom and also,  coincidentally, a full-stack developer.  I maintain a healthy balance between functionality and visual impact in all my work.  I believe every piece of design can be a work of art. Some of my top skills are MongoDB, Express, ReactJS, Node JS, HTML5, CSS3/SASS/LESS & Javascript.<br /> <br />
 							<br />
 							{/* <br />
@@ -69,9 +68,9 @@ const About = () => (
 
 
 		</Row>
-		<Row backgroundColor="#31355b" bottom="xs" center="xs">
+		<Row backgroundColor="#31355b" center="xs">
 			<Col backgroundColor="#31355b" xs>
-				<Img className="tea" src={Tea} sizeX="100%" sizeY="120%" max="600px" />
+				<Img className="tea" src={Tea} sizeX="100%" sizeY="101%" max="600px" />
 
 			</Col>
 		</Row>
