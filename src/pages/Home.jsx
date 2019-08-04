@@ -16,7 +16,7 @@ import logo from '../images/logo.jpg';
 import clyrics from '../images/clyrics.jpg';
 import upwork from '../images/upwork.png';
 import columbia from '../images/columbia.jpg';
-import Pic from '../images/raf.jpg';
+import Pic from '../images/raf.png';
 import { NavLink } from 'react-router-dom';
 
 
@@ -49,7 +49,7 @@ const Home = () => (
 			<br />
 			<Row center="xs">
 
-				<Img src={Pic} paddingTop="50px" sizeX="225px" sizeY="225px" />
+				<Img src={Pic} borderCollapse="collapsed" borderRadius="50%" paddingTop="50px" sizeX="225px" sizeY="225px" />
 				<br />
 				<br />
 				<Col xs={12}>
