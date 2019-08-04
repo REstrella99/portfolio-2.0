@@ -232,7 +232,7 @@ const Work = () => (
 								</Col>
 							</LazyLoad>
 						</Row>
-						{/* <Row center="xs">
+						<Row center="xs">
 							<div>
 
 								<Button
@@ -241,7 +241,7 @@ const Work = () => (
 </Button></div>
 
 							<div><Button href="https://chime-bot.herokuapp.com/dashboard">Dashboard</Button></div>
-						</Row><div> */}<div>
+						</Row><div>
 							<Button
 								href="https://github.com/rileyjgr/chime">
 								0101 [Code] 0101
@@ -262,6 +262,7 @@ const Work = () => (
 						<ReactPlayer style={{ marginBottom: "50px" }} xs={12} center="xs" width="cover" url='https://vimeo.com/313443907' playing loop=" true" />
 
 						<Paragraph style={{ marginBottom: "25px" }} color="#ffffff">
+							An API-powered web application that pulls data from multiple sources in a creative way. <br />
 							Find a brewery near you and what kind of beers they offer.  Get custom suggestions using keywords depending on your preference.
 							<br />
 							<br />

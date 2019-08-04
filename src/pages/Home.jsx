@@ -49,7 +49,7 @@ const Home = () => (
 			<br />
 			<Row center="xs">
 
-				<Img src={Pic} paddingTop="50px" sizeX="225px" sizeY="200px" />
+				<Img src={Pic} paddingTop="50px" sizeX="225px" sizeY="225px" />
 				<br />
 				<br />
 				<Col xs={12}>
