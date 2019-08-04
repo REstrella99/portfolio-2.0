@@ -16,6 +16,7 @@ import logo from '../images/logo.jpg';
 import clyrics from '../images/clyrics.jpg';
 import upwork from '../images/upwork.png';
 import columbia from '../images/columbia.jpg';
+import Pic from '../images/raf.jpg';
 import { NavLink } from 'react-router-dom';
 
 
@@ -43,9 +44,17 @@ const Home = () => (
 			</Grid>
 		</Section>
 		<Grid>
+			<br />
+			<br /><br />
+			<br />
 			<Row center="xs">
-				<Img src={Me} sizeX="152px" sizeY="200px" />
+
+				<Img src={Pic} paddingTop="50px" sizeX="225px" sizeY="200px" />
+				<br />
+				<br />
 				<Col xs={12}>
+					<br />
+					<br />
 					<SubTitle>Hello!</SubTitle>
 				</Col>
 				<Col xs={12} lg={6}>

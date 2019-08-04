@@ -13,7 +13,7 @@ const Contact = () => (
 				<Col xs={12}>
 					<Title>Contact me</Title>
 					<br />
-					><br /><br /><br /><br /><br /><br />
+					<br /><br /><br /><br /><br /><br />
 				</Col>
 
 			</Row>
